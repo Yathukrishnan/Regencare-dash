@@ -9,8 +9,6 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24
     DATABASE_URL: str = f"sqlite:///{_DB_PATH.resolve()}"
-    OPENROUTER_API_KEY: str = ""
-    AI_MODEL: str = "anthropic/claude-sonnet-4-5"
 
     class Config:
         env_file = str(_BASE / ".env")
