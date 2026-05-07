@@ -2,10 +2,27 @@ import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.core.database import engine, Base
+from app.core.database import engine, Base, SessionLocal
+from app.core.auth import hash_password
+from app.models.models import User
 from app.api import auth_routes
 
 Base.metadata.create_all(bind=engine)
+
+# Auto-seed users on first startup
+def _seed():
+    db = SessionLocal()
+    try:
+        if not db.query(User).first():
+            db.add_all([
+                User(email="admin@regencare.in", name="Admin", hashed_password=hash_password("regencare2026"), role="admin"),
+                User(email="team@ntglobal.net", name="NT Global Team", hashed_password=hash_password("ntglobal2026"), role="viewer"),
+            ])
+            db.commit()
+    finally:
+        db.close()
+
+_seed()
 
 app = FastAPI(title="Regencare Intelligence Dashboard", version="1.0.0")
 
