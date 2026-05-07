@@ -539,7 +539,7 @@ export default function CompetitiveStudyPage() {
       {/* Header */}
       <div>
         <h1 className="text-2xl font-bold text-[#0D2B55]">Competitive Intelligence Study</h1>
-        <p className="text-sm text-gray-500 mt-1">v2.0 · May 2026 · 17 competitors (10 local + 7 national hospitals) · 12 analysis sheets</p>
+        <p className="text-sm text-gray-500 mt-1">v3.0 · May 2026 · 17 competitors (10 local + 7 national hospitals) · 12 analysis sheets</p>
       </div>
 
       {/* Tab Bar */}
