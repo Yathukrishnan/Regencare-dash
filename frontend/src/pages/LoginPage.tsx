@@ -38,7 +38,7 @@ export default function LoginPage() {
           </div>
           <h1 className="text-white text-2xl font-bold">Regencare</h1>
           <p className="text-gold text-sm mt-1">Intelligence Dashboard</p>
-          <p className="text-slate-400 text-xs mt-2">NT Global Digital · Digital Strategy Platform</p>
+          <p className="text-slate-400 text-xs mt-2">NT Global Solutions · Digital Strategy Platform</p>
         </div>
 
         {/* Form */}
