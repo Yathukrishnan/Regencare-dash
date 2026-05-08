@@ -20,6 +20,37 @@ export const LOCAL_COMPETITORS: LocalCompetitor[] = [
   { id: 8,  name: 'DH Clinic',            domain: 'dh-clinic.com',           type: 'Ortho+Stem Cell',          threat: 'MED',      locations: 'Kerala (multi-branch)',    notes: 'ONLY India clinic with Surecell Australia affiliation for regen medicine — low online authority but unique credentialing claim.' },
   { id: 9,  name: 'Hair Wellness Clinic', domain: 'hairwellnessclinic.com',  type: 'Hair Specialist',          threat: 'MED',      locations: 'Kerala',                   notes: 'Specialist GFC/hair. Low authority, thin content — outranking feasible with one well-structured GFC page.' },
   { id: 10, name: 'Epione Pain Centre',   domain: 'paincentre.in',           type: 'Pain & Regen',             threat: 'MED',      locations: 'Kerala',                   notes: '7yr Kerala PRP+Stem Cell+Prolotherapy — direct ortho regen overlap. Low DA. Easy to outrank with targeted content.' },
+  // ── KOCHI DERMATOLOGY COMPETITORS ────────────────────────────────────────────
+  { id: 18, name: 'Skinessence',                           domain: 'skinessence.co.in',              type: 'Local Kochi Derma',        threat: 'HIGH',     locations: 'Kadavanthra, Kochi',          notes: 'Board-cert dermatologist Dr Annu Jayan (20+ yrs). 25,000+ patients. Strong cluster: acne/PRP/GFC/RF microneedling/anti-aging. Clear cost estimates — Regencare needs to match transparency.' },
+  { id: 19, name: 'VPS Lakeshore Dermatology',             domain: 'vpslakeshorehospital.com',       type: 'Hospital-Based Derma',     threat: 'HIGH',     locations: 'Kochi (NH-Bypass)',           notes: 'Multi-specialty hospital dermatology. Dr. Abin Abraham Itty heads dept (PRP, lasers, injectables). Strong domain authority. Outranks for hospital-derma searches in Kochi.' },
+  { id: 20, name: 'Renai Medicity Derma',                  domain: 'renaimedicity.org',              type: 'Hospital-Based Derma',     threat: 'MED',      locations: 'Kochi (Palavattom)',          notes: 'Mid-tier hospital derma — wider service mix (psoriasis, vitiligo, eczema, acne). Cross-referrals from rheumatology/cosmetic surgery. Domain authority advantage over standalone clinics.' },
+  { id: 21, name: 'Aster Medcity Dermatology',             domain: 'asterhospitals.in',              type: 'Hospital-Based Derma',     threat: 'HIGH',     locations: 'Kochi (Kuttisahib Rd)',       notes: "Aster brand power. Multiple consultants. Comprehensive derma + cosmetology offering. Outranks Regencare on 'best skin clinic Kochi' due to domain DA. Can't outrank — must niche down." },
+  { id: 22, name: 'Amrita Hospitals Derma & Cosmetology',  domain: 'amritahospitals.org',            type: 'Hospital-Based Derma',     threat: 'HIGH',     locations: 'Kochi (Edappally)',           notes: "Amrita's massive domain authority. Soprano ICE Platinum laser + diode laser (premium kit). CO2 laser, Botox, fillers, PRP. Hospital trust + cosmetology bundle is hard to outrank." },
+  { id: 23, name: 'Skin Lab Kochi (Dr Jamuna Pai)',         domain: 'blushclinics.com',               type: 'Celebrity Brand Derma',    threat: 'MED',      locations: 'Panampilly Nagar, Kochi',     notes: "Celebrity dermatologist Dr Jamuna Pai's franchise. Brand pull from media exposure. PRP/PRR/anti-aging focus. Premium pricing but loyal customer base." },
+  { id: 24, name: 'Doctors Aesthetics Centre',             domain: 'doctorsaestheticscentre.com',    type: 'Local Kochi Derma',        threat: 'MED',      locations: 'MG Road, Ernakulam',          notes: 'Independent aesthetics practice. PRP, laser, anti-aging. Lower web authority. Easy to outrank with structured content + better location signals.' },
+  { id: 25, name: 'Skin & Sculpt Clinic',                  domain: 'skinandsculpt.in',               type: 'Local Kochi Derma',        threat: 'MED',      locations: 'MG Road, Kochi',              notes: 'Aesthetic-focused clinic — body sculpting + skin. Mid-tier presence. Underutilized SEO — Regencare can outrank with stronger content depth.' },
+  // ── CALICUT DERMATOLOGY COMPETITORS ──────────────────────────────────────────
+  { id: 26, name: 'Lisa Skin Clinic',                      domain: 'lisaskinclinic.com',             type: 'Local Calicut Derma',      threat: 'HIGH',     locations: 'Calicut',                     notes: 'Dr Jenny Mathew (chief dermatologist). Premium positioning — Deka Punto CO2 laser, Cool Peel + Exosome Therapy, Scar Clinic. Strong patient testimonials. #1 Calicut derma SERP threat.' },
+  { id: 27, name: 'Nahas Skin Clinic',                     domain: 'nahasskinclinic.com',            type: 'Local Calicut Derma',      threat: 'HIGH',     locations: 'Calicut',                     notes: 'Dr Shiraz Naha (15 yrs). Associate Professor at KMCT Medical College — strong E-E-A-T. Q-switch + laser toning specialist. Indian skin types focus. Direct Calicut competitor.' },
+  { id: 28, name: 'MICAA',                                 domain: 'micaa.in',                       type: 'Local Calicut Derma',      threat: 'MED',      locations: 'Calicut',                     notes: '20+ years derma team. Strong cluster: tattoo removal, carbon peel, LHR. Clean modern site. Underutilized E-E-A-T — beatable with named credentials.' },
+  { id: 29, name: "Dr Lasi's Skin & Hair Clinic",          domain: 'drlasisskinclinic.com',          type: 'Local Calicut Derma',      threat: 'MED',      locations: 'Mankave, Kozhikode',          notes: '16+ yrs experience. North Kerala derma + FUE hair transplant. Mid-authority site. Niche scope — beatable with broader regenerative angle.' },
+  { id: 30, name: 'Aster MIMS Calicut Derma',              domain: 'asterhospitals.in',              type: 'Hospital-Based Derma',     threat: 'HIGH',     locations: 'Calicut',                     notes: 'Aster brand carryover from Kochi. Dr Rakhesh SV + Dr Preethi Cheriyan + Dr Lasida Ali (hair transplant). Multi-specialist team. Hospital DA advantage hard to beat. [Shares domain with Aster Medcity #21]' },
+  { id: 31, name: 'PVS Sunrise Hospital Derma',            domain: 'pvssunrisehospital.com',         type: 'Hospital-Based Derma',     threat: 'MED',      locations: 'Calicut (Palayam)',           notes: 'Hospital derma + weight loss/lifestyle bundle. Dr Laxmi V Nair (54 yrs experience — high E-E-A-T). Affordable positioning vs premium clinics.' },
+  { id: 32, name: 'IQRAA Hospital Derma',                  domain: 'iqraahospital.in',               type: 'Hospital-Based Derma',     threat: 'MED',      locations: 'Calicut',                     notes: 'Hospital derma — broad clinical scope (acne, psoriasis, eczema, alopecia, fungal). Microdermabrasion, electrocautery, phototherapy. Mid-tier authority but local trust strong.' },
+  { id: 33, name: 'Dermis (Criniere)',                     domain: 'dermishairandskin.com',          type: 'Local Calicut Derma',      threat: 'MED',      locations: 'Calicut',                     notes: 'Hair transplant + PRP/Biotin PRP/GFC + skin services. New entrant but aggressive content marketing. Direct Regencare GFC competitor in Calicut.' },
+  { id: 34, name: 'Revive Skin Clinics',                   domain: 'reviveskinclinics.com',          type: 'Local Calicut Derma',      threat: 'MED',      locations: 'Nadakkav, Kozhikode',         notes: 'Board-certified derma team. PRP/hair transplant/laser/STD screening. Broad scope. Site has weaker SEO — beatable with focused regenerative content.' },
+  // ── CHENNAI COMPETITORS ────────────────────────────────────────────────────────
+  { id: 35, name: 'Regen Institute of Orthopaedics (RIO)', domain: 'regenorthocare.com',             type: 'Sports & Regen Ortho',     threat: 'CRITICAL', locations: 'Chennai (Alwarpet)',          notes: "Tamil Nadu's first stem cell culture lab. Dr Lakshmi Naathan — Sports + Regen specialist. Direct competitor on regen-ortho searches. Outranks for 'stem cell knee Chennai' cluster." },
+  { id: 36, name: 'Tosh Hospital Stem Cell Centre',        domain: 'toshhospitals.com',              type: 'Hospital-Based Regen',     threat: 'HIGH',     locations: 'Chennai',                     notes: "Stem cell + PRP for orthopedics. Hospital authority. Pushes 'No.1 stem cell hospital Chennai' positioning. Strong local SERP for joint pain/AVN/knee." },
+  { id: 37, name: 'Dr A K Venkatachalam (Orthobiologic Surgery)', domain: 'orthobiologicsurgeryindia.com', type: 'Specialist Solo Practice', threat: 'MED', locations: 'Chennai',             notes: 'Solo specialist. PRP, MSCs, SVF, BMAC — breadth matches Regencare. Strong content on technical orthobiology. Lower domain authority but technical SEO is solid.' },
+  { id: 38, name: 'Apollo Cosmetic Clinics',               domain: 'apollocosmeticclinics.com',      type: 'Hospital Cosmetic Chain',  threat: 'CRITICAL', locations: 'Chennai (multi)',              notes: 'Apollo brand power. Multi-branch Chennai. Acne, lasers, PRP, anti-aging. Massive domain authority. Cannot outrank head-on — niche down.' },
+  { id: 39, name: 'Kosmoderma Clinics Chennai',            domain: 'kosmoderma.com',                 type: 'National Derma Chain',     threat: 'HIGH',     locations: 'Chennai (multi)',              notes: 'Premium dermatology chain. Dr Chytra (national figure). PICO laser, Ultherapy, RF microneedling, fillers. Multi-city — cross-pollinates Chennai SERPs.' },
+  { id: 40, name: 'Mahi Skin, Hair & Laser Clinic',        domain: 'mahiskinhairandlaserclinic.com', type: 'Local Chennai Derma',      threat: 'MED',      locations: 'Kilpauk + Sowcarpet, Chennai', notes: 'Dr Deepika Lunawat. PICO + Q-switch laser specialist for pigmentation. Strong on-site content for hyperpigmentation cluster. Beatable with broader regen angle.' },
+  { id: 41, name: 'Kaya Clinic Chennai',                   domain: 'kayaclinic.com',                 type: 'National Derma Chain',     threat: 'HIGH',     locations: 'Chennai (multi)',              notes: 'National chain — T Nagar, Nungambakkam branches. PRP, botox, fillers, fairness peels, LHR. Brand recognition strong. Outranks on broad derma searches.' },
+  { id: 42, name: 'Render Skin & Hair Clinic',             domain: 'renderskinandhairrclinic.com',   type: 'Local Chennai Derma',      threat: 'MED',      locations: 'Chennai',                     notes: 'Evidence-based derma positioning. New entrant — aggressive content marketing. Watch for SERP gains in 6-12 months.' },
+  // ── TRIVANDRUM / OTHER ────────────────────────────────────────────────────────
+  { id: 43, name: 'Skinessence Trivandrum / Ananthapuri Derma', domain: 'ananthapurhospitals.com',  type: 'Hospital-Based Derma',     threat: 'MED',      locations: 'Trivandrum',                  notes: 'Trivandrum hospital derma. Lower threat to Kochi/Calicut/Chennai but matters for Kerala-state SERPs. Catches NRI medical tourism south Kerala.' },
+  { id: 44, name: 'Shri Bone & Joint Clinic (SBJ Ortho)',  domain: 'sbjortho.com',                  type: 'Specialist Solo Practice', threat: 'MED',      locations: 'Chennai',                     notes: "Dr Shriram Krishnamoorthy. Stem cell knee injections specialty. Niche orthopedic regen. Direct overlap with Regencare's ortho-regen positioning in Chennai." },
 ]
 
 // ═══ HOSPITAL COMPETITORS ════════════════════════════════════════════════════
@@ -75,9 +106,72 @@ export const RANKING_KEYWORDS: RankingKeyword[] = [
   { keyword: 'non-surgical knee treatment Kerala',        volume: 170,  intent: 'Commercial',  cluster: 'Ortho — Kerala' },
   { keyword: 'GFC therapy cost Kerala',                   volume: 170,  intent: 'Transact.',   cluster: 'Conversational' },
   { keyword: 'hair transplant Kochi',                     volume: 1900, intent: 'Transact.',   cluster: 'Hair — Kochi' },
+  // ── KOCHI DERMATOLOGY & ORTHO KEYWORDS ────────────────────────────────────────
+  { keyword: 'hair fall treatment Kochi',                 volume: 3900, intent: 'Commercial',  cluster: 'Hair — Kochi' },
+  { keyword: 'acne scar treatment Kochi',                 volume: 880,  intent: 'Commercial',  cluster: 'Derma — Kochi' },
+  { keyword: 'melasma treatment Kochi',                   volume: 880,  intent: 'Commercial',  cluster: 'Derma — Kochi' },
+  { keyword: 'laser hair removal Kochi',                  volume: 2900, intent: 'Commercial',  cluster: 'Derma — Kochi' },
+  { keyword: 'pcos laser treatment Kochi',                volume: 220,  intent: 'Commercial',  cluster: 'Derma — Kochi' },
+  { keyword: 'PRP for hair Kochi',                        volume: 1000, intent: 'Commercial',  cluster: 'PRP — Kochi' },
+  { keyword: 'anti aging treatment Kochi',                volume: 590,  intent: 'Commercial',  cluster: 'Derma — Kochi' },
+  { keyword: 'Botox treatment Kochi',                     volume: 310,  intent: 'Commercial',  cluster: 'Derma — Kochi' },
+  { keyword: 'tattoo removal Kochi',                      volume: 880,  intent: 'Commercial',  cluster: 'Derma — Kochi' },
+  { keyword: 'knee pain treatment Kochi',                 volume: 880,  intent: 'Commercial',  cluster: 'Ortho — Kochi' },
+  { keyword: 'PRP injection Kochi',                       volume: 720,  intent: 'Commercial',  cluster: 'PRP — Kochi' },
+  { keyword: 'sports injury clinic Kochi',                volume: 390,  intent: 'Commercial',  cluster: 'Ortho — Kochi' },
+  { keyword: 'non-surgical knee Kochi',                   volume: 265,  intent: 'Commercial',  cluster: 'Ortho — Kochi' },
+  { keyword: 'BMAC therapy Kerala',                       volume: 140,  intent: 'Commercial',  cluster: 'Regen — Kerala' },
+  // ── CALICUT KEYWORDS ──────────────────────────────────────────────────────────
+  { keyword: 'best dermatologist Calicut',                volume: 1000, intent: 'Navigat.',    cluster: 'Derma — Calicut' },
+  { keyword: 'acne scar treatment Calicut',               volume: 320,  intent: 'Commercial',  cluster: 'Derma — Calicut' },
+  { keyword: 'pcos laser Calicut',                        volume: 200,  intent: 'Commercial',  cluster: 'Derma — Calicut' },
+  { keyword: 'PRP hair Calicut',                          volume: 220,  intent: 'Commercial',  cluster: 'PRP — Calicut' },
+  { keyword: 'hair transplant Calicut',                   volume: 520,  intent: 'Transact.',   cluster: 'Hair — Calicut' },
+  { keyword: 'knee pain doctor Calicut',                  volume: 880,  intent: 'Commercial',  cluster: 'Ortho — Calicut' },
+  { keyword: 'knee pain treatment Calicut',               volume: 880,  intent: 'Commercial',  cluster: 'Ortho — Calicut' },
+  { keyword: 'regenerative medicine Calicut',             volume: 145,  intent: 'Navigat.',    cluster: 'Regen — Calicut' },
+  { keyword: 'stem cell therapy Calicut',                 volume: 110,  intent: 'Commercial',  cluster: 'Regen — Calicut' },
+  { keyword: 'GFC therapy Calicut',                       volume: 260,  intent: 'Commercial',  cluster: 'GFC — Calicut' },
+  { keyword: 'Botox Calicut',                             volume: 210,  intent: 'Commercial',  cluster: 'Derma — Calicut' },
+  { keyword: 'melasma treatment Calicut',                 volume: 170,  intent: 'Commercial',  cluster: 'Derma — Calicut' },
+  { keyword: 'laser hair removal Calicut',                volume: 320,  intent: 'Commercial',  cluster: 'Derma — Calicut' },
+  { keyword: 'anti aging Calicut',                        volume: 170,  intent: 'Commercial',  cluster: 'Derma — Calicut' },
+  { keyword: 'tattoo removal Calicut',                    volume: 140,  intent: 'Commercial',  cluster: 'Derma — Calicut' },
+  // ── CHENNAI KEYWORDS ───────────────────────────────────────────────────────────
+  { keyword: 'stem cell therapy Chennai',                 volume: 1200, intent: 'Commercial',  cluster: 'Regen — Chennai' },
+  { keyword: 'regenerative medicine Chennai',             volume: 590,  intent: 'Commercial',  cluster: 'Regen — Chennai' },
+  { keyword: 'acne scar treatment Chennai',               volume: 1900, intent: 'Commercial',  cluster: 'Derma — Chennai' },
+  { keyword: 'pcos laser Chennai',                        volume: 300,  intent: 'Commercial',  cluster: 'Derma — Chennai' },
+  { keyword: 'melasma treatment Chennai',                 volume: 880,  intent: 'Commercial',  cluster: 'Derma — Chennai' },
+  { keyword: 'laser hair removal Chennai',                volume: 5400, intent: 'Commercial',  cluster: 'Derma — Chennai' },
+  { keyword: 'hair loss treatment Chennai',               volume: 3000, intent: 'Commercial',  cluster: 'Hair — Chennai' },
+  { keyword: 'GFC therapy Chennai',                       volume: 480,  intent: 'Commercial',  cluster: 'GFC — Chennai' },
+  { keyword: 'Botox Chennai',                             volume: 1600, intent: 'Commercial',  cluster: 'Derma — Chennai' },
+  { keyword: 'hair transplant Chennai',                   volume: 3600, intent: 'Transact.',   cluster: 'Hair — Chennai' },
+  { keyword: 'ACL treatment Chennai',                     volume: 170,  intent: 'Commercial',  cluster: 'Ortho — Chennai' },
+  { keyword: 'BMAC therapy Chennai',                      volume: 170,  intent: 'Commercial',  cluster: 'Regen — Chennai' },
+  // ── KERALA REGIONAL KEYWORDS ───────────────────────────────────────────────────
+  { keyword: 'best dermatologist Kerala',                 volume: 1100, intent: 'Navigat.',    cluster: 'Derma — Kerala' },
+  { keyword: 'cartilage regeneration Kerala',             volume: 145,  intent: 'Commercial',  cluster: 'Regen — Kerala' },
+  { keyword: 'best skin clinic Ernakulam',                volume: 590,  intent: 'Navigat.',    cluster: 'Derma — Kerala' },
+  { keyword: 'PRP for hair fall India',                   volume: 1000, intent: 'Commercial',  cluster: 'PRP — National' },
+  { keyword: 'RF microneedling Kerala',                   volume: 200,  intent: 'Commercial',  cluster: 'Derma — Kerala' },
+  { keyword: 'Helios 785 pico laser Kerala',              volume: 70,   intent: 'Navigat.',    cluster: 'Tech — Kerala' },
+  { keyword: 'carbon peel Kerala',                        volume: 160,  intent: 'Commercial',  cluster: 'Derma — Kerala' },
 ]
 
-export const REGEN_POSITIONS = ['1','NR','NR','3','9','NR','2','NR','NR','3','2','2','2','NR','NR']
+export const REGEN_POSITIONS = [
+  // Original 15 keywords (indices 0–14)
+  '1','NR','NR','3','9','NR','2','NR','NR','3','2','2','2','NR','NR',
+  // New Kochi keywords (indices 15–28)
+  'NR','NR','NR','NR','NR','NR','NR','NR','NR','2','NR','NR','2','NR',
+  // New Calicut keywords (indices 29–43)
+  'NR','NR','NR','2','NR','NR','NR','1','NR','NR','NR','NR','NR','NR','NR',
+  // New Chennai keywords (indices 44–55)
+  'NR','4','NR','NR','NR','NR','NR','NR','NR','NR','NR','NR',
+  // New Kerala Regional keywords (indices 56–62)
+  'NR','NR','NR','NR','NR','NR','NR',
+]
 
 export const LOCAL_POSITIONS: Record<number, string[]> = {
   1:  ['3','NR','4','NR','NR','NR','4','NR','NR','4','4','5','4','NR','NR'],
@@ -293,6 +387,37 @@ export const LOCAL_SERVICES: Record<number, string[]> = {
   8:  ['No','No','Yes','Yes','No','No','Yes','Yes','Yes','No','Yes','Partial','Yes','No'],
   9:  ['Yes','Yes','No','No','No','No','No','No','No','No','No','No','Yes','Partial'],
   10: ['No','No','Yes','Yes','No','No','Yes','Yes','Yes','No','No','Partial','Yes','No'],
+  // Kochi derma competitors (GFC,PRP-hair,PRP-ortho,SC,HT,Exosome,Sports,Knee,Spine,UAE,Doctor,Blog,Booking,Pricing)
+  18: ['Yes','Yes','No','No','No','No','No','No','No','No','Yes','Yes','Yes','Yes'],
+  19: ['Yes','Yes','Yes','No','No','No','No','No','No','No','Yes','Yes','Yes','No'],
+  20: ['No','Yes','No','No','No','No','No','No','No','No','Yes','Yes','Yes','No'],
+  21: ['Yes','Yes','Yes','No','No','Partial','No','No','No','No','Yes','Yes','Yes','No'],
+  22: ['Yes','Yes','Yes','No','No','No','No','No','No','No','Yes','Yes','Yes','No'],
+  23: ['No','Yes','No','No','No','No','No','No','No','No','Yes','Yes','Yes','No'],
+  24: ['No','Yes','No','No','No','No','No','No','No','No','No','No','Yes','No'],
+  25: ['No','Yes','No','No','No','No','No','No','No','No','No','No','Yes','No'],
+  // Calicut derma competitors
+  26: ['No','Yes','No','No','No','Yes','No','No','No','No','Yes','Yes','Yes','Partial'],
+  27: ['No','Yes','No','No','No','No','No','No','No','No','Yes','Yes','Yes','No'],
+  28: ['No','Yes','No','No','No','No','No','No','No','No','Yes','No','Yes','No'],
+  29: ['No','Yes','No','No','Yes','No','No','No','No','No','Yes','No','Yes','No'],
+  30: ['Yes','Yes','Yes','No','Yes','No','No','No','No','No','Yes','Yes','Yes','No'],
+  31: ['No','Yes','No','No','No','No','No','No','No','No','Yes','Yes','Yes','No'],
+  32: ['No','Yes','No','No','No','No','No','No','No','No','Yes','Yes','Yes','No'],
+  33: ['Yes','Yes','No','No','Yes','No','No','No','No','No','No','Yes','Yes','No'],
+  34: ['No','Yes','No','No','Yes','No','No','No','No','No','Yes','Yes','Yes','No'],
+  // Chennai competitors
+  35: ['No','No','Yes','Yes','No','No','Yes','Yes','Yes','No','Yes','Yes','Yes','No'],
+  36: ['No','No','Yes','Yes','No','No','Yes','Yes','Yes','No','Yes','Yes','Yes','No'],
+  37: ['No','No','Yes','Yes','No','No','Yes','Yes','Yes','No','Yes','Yes','Yes','No'],
+  38: ['Yes','Yes','Yes','No','No','No','No','No','No','Yes','Yes','Yes','Yes','No'],
+  39: ['Yes','Yes','No','No','No','No','No','No','No','No','Yes','Yes','Yes','No'],
+  40: ['No','Yes','No','No','No','No','No','No','No','No','Yes','Yes','Yes','Partial'],
+  41: ['No','Yes','No','No','No','No','No','No','No','Yes','No','Yes','Yes','Partial'],
+  42: ['No','Yes','No','No','No','No','No','No','No','No','Yes','Yes','Yes','Yes'],
+  // Trivandrum / other
+  43: ['No','Yes','No','No','No','No','No','No','No','No','Yes','Yes','Yes','No'],
+  44: ['No','No','Yes','Yes','No','No','Yes','Yes','Yes','No','Yes','Yes','Yes','No'],
 }
 
 // ═══ WHITE SPACE & GAPS ══════════════════════════════════════════════════════

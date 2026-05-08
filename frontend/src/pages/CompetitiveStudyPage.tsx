@@ -87,7 +87,7 @@ function DaBadge({ da }: { da: number }) {
 function LocalCompetitorsTab() {
   return (
     <div className="space-y-3">
-      <p className="text-sm text-gray-500">10 sites outranking Regencare on Kerala keywords — identified by SERP frequency analysis</p>
+      <p className="text-sm text-gray-500">37 sites outranking Regencare across Kerala, Chennai, UAE — identified by SERP frequency analysis (May 2026 expanded)</p>
       <div className="space-y-3">
         {LOCAL_COMPETITORS.map(c => (
           <div key={c.id} className="bg-white rounded-xl border p-4">
