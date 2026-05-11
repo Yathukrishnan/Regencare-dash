@@ -4,19 +4,22 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.core.database import engine, Base, SessionLocal
 from app.core.auth import hash_password
+from app.core.config import settings
 from app.models.models import User
 from app.api import auth_routes
 
 Base.metadata.create_all(bind=engine)
 
-# Auto-seed users on first startup
+# Auto-seed users on first startup using credentials from .env
 def _seed():
+    if not settings.ADMIN_PASSWORD or not settings.VIEWER_PASSWORD:
+        return
     db = SessionLocal()
     try:
         if not db.query(User).first():
             db.add_all([
-                User(email="admin@regencare.in", name="Admin", hashed_password=hash_password("regencare2026"), role="admin"),
-                User(email="team@ntglobal.net", name="NT Global Team", hashed_password=hash_password("ntglobal2026"), role="viewer"),
+                User(email=settings.ADMIN_EMAIL, name="Admin", hashed_password=hash_password(settings.ADMIN_PASSWORD), role="admin"),
+                User(email=settings.VIEWER_EMAIL, name="NT Global Team", hashed_password=hash_password(settings.VIEWER_PASSWORD), role="viewer"),
             ])
             db.commit()
     finally:
